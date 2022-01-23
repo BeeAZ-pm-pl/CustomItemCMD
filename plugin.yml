@@ -1,0 +1,19 @@
+name: CustomItemCMD
+main: BeeAZZ\CustomItemCMD\Main
+version: 0.1
+api: 4.0.0
+author: BeeAZZ
+
+commands:
+ setitemname:
+  description: "Change Name Item"
+  permission: setname.command
+ setitemlore:
+  description: "Change Lore Item"
+  permission: setlore.command
+
+permissions:
+  setname.command:
+    default: op
+  setlore.command:
+    default: op
