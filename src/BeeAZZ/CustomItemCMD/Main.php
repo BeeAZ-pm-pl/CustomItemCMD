@@ -14,7 +14,6 @@ Class Main extends PluginBase implements Listener{
  
  public function onEnable(): void{
    $this->getServer()->getPluginManager()->registerEvents($this, $this);
-   $this->getLogger()->info("PLUGIN CUSTOMITEMCMD ENABLE");
    }
    
    public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args):bool{
