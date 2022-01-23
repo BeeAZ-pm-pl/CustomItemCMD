@@ -17,8 +17,11 @@
 • setname.command
 <br>
 • setlore.command
+
  # ⭐ Use
 
 <br>
-• Hold Item In Hand And Use Command \\n To Enter Line
+• Hold Item In Hand And Use Command 
+<br>
+• "\\n" To Enter Line
 
