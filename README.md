@@ -23,5 +23,5 @@
 <br>
 • Hold Item In Hand And Use Command 
 <br>
-• "\\n" To Enter Line
+• "\n" To Enter Line
 
