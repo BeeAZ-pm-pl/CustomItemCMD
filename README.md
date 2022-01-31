@@ -6,17 +6,17 @@
 <br>
 • /setitemlore
 
-# ⭐ Feature
+# ⭐ General
 
 <br>
-• Change Name And Lore Item 
+• Plugin Helps You Change Item Name And Description
 
 # ⭐ Permission
 
 <br>
-• setname.command
+• customitemcmd.command.setname
 <br>
-• setlore.command
+• customitemcmd.command.setlore
 
  # ⭐ Use
 
