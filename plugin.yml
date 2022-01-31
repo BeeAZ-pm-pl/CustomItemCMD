@@ -1,19 +1,20 @@
 name: CustomItemCMD
 main: BeeAZZ\CustomItemCMD\Main
-version: 0.1
+version: 0.2
 api: 4.0.0
 author: BeeAZZ
+description: Plugin Helps You Change Item Name And Description
 
 commands:
  setitemname:
   description: "Change Name Item"
-  permission: setname.command
+  permission: customitemcmd.command.setname
  setitemlore:
   description: "Change Lore Item"
-  permission: setlore.command
+  permission: customitemcmd.command.setlore
 
 permissions:
-  setname.command:
+  customitemcmd.command.setname:
     default: op
-  setlore.command:
+  customitemcmd.command.setlore:
     default: op
