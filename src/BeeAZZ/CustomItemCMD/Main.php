@@ -32,7 +32,7 @@ Class Main extends PluginBase implements Listener{
            case "setitemlore":
           if($sender instanceof Player){
            $lore = implode(" ", $args);
-           $lore = explode("\\n",$lore);
+           $lore = explode("\\n", $lore);
            $item = $sender->getInventory()->getItemInHand();
            $item->setLore($lore);
            $sender->getInventory()->setItemInHand($item);
